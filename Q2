@@ -1,0 +1,6 @@
+#A1Q2
+
+GI = input('what is your gross income(in nearest penny)? ')
+Nod = input('no. of dependents? ')
+TI = (0.2*float(GI)) - 10000 - (3000*float(Nod))
+print('Your income tax is ' + str(TI) +'$')
