@@ -1,0 +1,7 @@
+#A1Q1
+
+i1 = input('choose a no. ')
+i2 = input('choose 1 more no. ')
+i3 = input('choose 1 more no. ')
+avg = (float(i1) + float(i2) + float(i3))/3
+print('average = ' + str(avg))
