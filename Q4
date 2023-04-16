@@ -1,0 +1,5 @@
+#A1Q4
+
+ans = 25 + int('25') + int(25.0)
+print(str(ans))
+print(type(str(ans)))
