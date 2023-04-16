@@ -1,0 +1,8 @@
+#A1Q5
+
+import math
+
+n = 0
+while n <= 345:
+    print(f' {n} ---  {round(math.sin(math.radians(n)),4)}   {round(math.cos(math.radians(n)),4)}')
+    n += 15
