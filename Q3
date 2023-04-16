@@ -1,0 +1,5 @@
+#A1Q3
+
+sec = input('time in seconds = ')
+minsec = int(sec)/60
+print(str(int(minsec)) + 'min. ' + str(int((float(minsec) - int(minsec))*60)) +'sec.')
